@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/LArea.css">
+    <script src="js/lCalendar.js"></script>
+    <link rel="stylesheet" href="css/lCalendar.css">
+    <link rel="stylesheet" href="css/phone-index.css">
+</head>
+
+<body>
+    <div class="head">
+        <p></p>
+        <p class="head-sy">首页 </p>
+        <p>登录/注册</p>
+    </div>
+    <div class="x-main">
+        <div class="x-top clearfix">
+            <ul>
+                <li class="x-active" data-page="release"><a href="#"><strong>发布需求</strong></a></li>
+                <li data-page="already"><a href="#"><strong>已发布</strong></a></li>
+            </ul>
+        </div>
+        <div class="x-content">
+            <div class="release">
+                <form class="pl15" action="index.html" method="post">
+                    <div class="row">
+                        <div class="col-xs-6 p0">
+                            <span>货物名称</span><input type="text" name="" value="" class="w6 ml5">
+                        </div>
+                        <div class="col-xs-6 p0">
+                            <span>重量/体积</span><input type="text" name="" value="" class="ml5 wei"><select class="w2 vol"><option value="volvo">吨</option><option value="volvo">体积</option></select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6 p0">
+                            <span>货物类型</span><select class="ml5 w6"><option value="volvo">请选择</option><option value="volvo">煤焦类</option><option value="volvo">石油及其制品类</option><option value="volvo">矿石类</option><option value="volvo">矿物性建设材料类</option><option value="volvo">钢铁</option><option value="volvo">有色金属材料</option><option value="volvo">食品</option><option value="volvo">钢轨及其配件类</option><option value="volvo">日用百货</option><option value="volvo">药品</option><option value="volvo">化工产品</option><option value="volvo">木材</option><option value="volvo">电子电器</option><option value="volvo">仪表仪器</option><option value="volvo">农副产品</option></select>
+                        </div>
+                        <div class="col-xs-6 p0">
+                            <span>发货时间</span><input id="time" type="text" readonly="" name="input_date" placeholder="" data-lcalendar="2010-01-11,2019-12-31" class="w6 ml10" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6 p0"><span>起运地</span><input id="demo1" type="text" readonly="" placeholder="" value="" class="w6 ml15" /><input id="value1" type="hidden" value="20,234,504" /></div>
+                        <div class="col-xs-6 p0"><span>目的地</span><input id="demo2" type="text" readonly="" placeholder="" value="" class="w6 ml20" /><input id="value2" type="hidden" value="20,234,504" /></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6 p0"><span>发货地址</span><input id="demo3" type="text" readonly="" placeholder="" value="" class="ml5 w6" /><input id="value3" type="hidden" value="20,234,504" /></div>
+                        <div class="col-xs-6 p0"><span>收货地址</span><input id="demo4" type="text" readonly="" placeholder="" value="" class="w6 ml10" /><input id="value4" type="hidden" value="20,234,504" /></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 p0">
+                            <span>运输要求</span><input type="text" name="" value="" class="w8 ml5" placeholder="在此输入汽运 船运等运输要求">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="offer">
+                            <form class="" action="index.html" method="post">
+                                <span class="mr5">报价方式</span><input type="radio" checked="checked" name="offer-btn" value="male" /><span>竞价</span>
+                                <input type="radio" checked="checked" name="offer-btn" value="male" /><span>报价</span>
+                                <input type="radio" checked="checked" name="offer-btn" value="male" /><span>一口价</span>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="inv">
+                            <form class="pl15" action="index.html" method="post">
+                                <span class="mr5">发票索取</span><input type="radio" checked="checked" name="offer-btn" value="male" /><span>不开发票</span>
+                                <input type="radio" checked="checked" name="offer-btn" value="male" /><span>索取发票</span>
+                                <red>可选</red>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="remark pl15">
+                            <span>备注</span><input class="w8 ml5" type="text" name="" value="" placeholder="例如包车 包船运输">
+                        </div>
+                    </div>
+                    <button type="submit" name="button" class="btn btn-primary">提交</button>
+                </form>
+            </div>
+            <div class="already">
+              <div class="row">
+                <div class="img col-xs-2 p0">
+                  <img src="img/test.jpg" alt="" >
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <a href="sysm.html">
+            <div class="footmum">
+                <p><img src="ioc/indx.png" style="height: 25px;" /><br><span>首页</span></span>
+                </p>
+            </div>
+        </a>
+        <a href="goods.html">
+            <div class="footmum">
+                <p><img src="ioc/dd-1.png" style="height: 25px;" /><br>订单跟踪</p>
+            </div>
+        </a>
+        <a href="#">
+            <div class="footmum">
+                <p><img src="ioc/sjtj-1.png" style="height: 25px;" /><br>数据统计</p>
+            </div>
+        </a>
+        <a href="#">
+            <div class="footmum">
+                <p><img src="ioc/my-1.png" style="height:25px;" /><br>我的</p>
+            </div>
+        </a>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/LAreaData1.js"></script>
+    <script src="js/LAreaData2.js"></script>
+    <script src="js/LArea.js"></script>
+    <script>
+        var area1 = new LArea();
+        area1.init({
+            'trigger': '#demo1', //触发选择控件的文本框，同时选择完毕后name属性输出到该位置
+            'valueTo': '#value1', //选择完毕后id属性输出到该位置
+            'keys': {
+                id: 'id',
+                name: 'name'
+            }, //绑定数据源相关字段 id对应valueTo的value属性输出 name对应trigger的value属性输出
+            'type': 1, //数据源类型
+            'data': LAreaData //数据源
+        });
+        area1.value = [1, 15, 3]; //控制初始位置，注意：该方法并不会影响到input的value
+        var area2 = new LArea();
+        area2.init({
+            'trigger': '#demo2', //触发选择控件的文本框，同时选择完毕后name属性输出到该位置
+            'valueTo': '#value2', //选择完毕后id属性输出到该位置
+            'keys': {
+                id: 'id',
+                name: 'name'
+            }, //绑定数据源相关字段 id对应valueTo的value属性输出 name对应trigger的value属性输出
+            'type': 1, //数据源类型
+            'data': LAreaData //数据源
+        });
+        area2.value = [1, 15, 3];
+        var area3 = new LArea();
+        area3.init({
+            'trigger': '#demo3', //触发选择控件的文本框，同时选择完毕后name属性输出到该位置
+            'valueTo': '#value3', //选择完毕后id属性输出到该位置
+            'keys': {
+                id: 'id',
+                name: 'name'
+            }, //绑定数据源相关字段 id对应valueTo的value属性输出 name对应trigger的value属性输出
+            'type': 1, //数据源类型
+            'data': LAreaData //数据源
+        });
+        area3.value = [1, 15, 3];
+        var area4 = new LArea();
+        area4.init({
+            'trigger': '#demo4', //触发选择控件的文本框，同时选择完毕后name属性输出到该位置
+            'valueTo': '#value4', //选择完毕后id属性输出到该位置
+            'keys': {
+                id: 'id',
+                name: 'name'
+            }, //绑定数据源相关字段 id对应valueTo的value属性输出 name对应trigger的value属性输出
+            'type': 1, //数据源类型
+            'data': LAreaData //数据源
+        });
+        area4.value = [1, 15, 3];
+    </script>
+    <script>
+        var calendardatetime = new lCalendar();
+        calendardatetime.init({
+            'trigger': '#time',
+            'type': 'datetime'
+        });
+    </script>
+    <script src="js/example.js">
+    </script>
+</body>
+
+</html>
