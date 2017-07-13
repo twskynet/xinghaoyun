@@ -1,0 +1,65 @@
+@charset "UTF-8";
+.ordercontent-item{
+  margin: 10px 10px;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+.ordercontent-item ul li{
+  line-height: 20px;
+}
+.ordercontent-item p{
+  color:#1475C7;
+}
+.ordercontent-item-title{
+  background-color: #eee;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px;
+}
+.ordercontent-item .order-info-red{
+  color: red;
+}
+.order-info-price::before{
+  content: "¥";
+}
+.order-info-pay{
+  display: inline-block;
+}
+.order-info-pay *{
+  color: red;
+}
+.goods-info-img{
+  margin: 10px 5px;;
+}
+.goods-info-img img{
+  width: 251px;
+  height: 150px;
+}
+.bottombox{
+  width: 100%;
+  height: 50px;
+}
+.ordercontent-way{
+  background-color: #07963d;
+}
+.ordercontent-way span{
+  color: #fff;
+}
+.ordercontent-way i{
+  color: #F1002C;
+  font-style: normal;
+  line-height: 30px;
+  background: url(../ioc/xianlu.png) center left no-repeat;
+  background-color: #fff;
+  padding-left: 18px;
+}
+.ordercontent-car-info{
+  border-radius: 5px;
+  background: url(../ioc/ioc-car.png) 3px center  no-repeat;
+  background-color: #07963d;
+  color: #fff;
+  padding-left: 19px;
+  line-height: 25px;
+  margin-top: 5px;
+}

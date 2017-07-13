@@ -1,0 +1,138 @@
+@charset "UTF-8";
+.m-integrals-item{
+  margin-top: 15px;
+}
+.m-integrals-item-top{
+  background-color: #fff;
+  border-bottom: 1px solid #bbb;
+}
+.integrals-type{
+  line-height: 35px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #aaa;
+  padding: 0 10px;
+}
+.integrals-num{
+  color: red;
+  float: right;
+  line-height: 35px;
+  padding: 0 10px;
+}
+.integrals-type{
+
+}
+.m-integrals-item-content{
+  background-color: #fff;
+}
+.m-integrals-item-content a{
+  padding: 0 10px;
+}
+.m-integrals-item-content a span{
+  color: #666;
+  float: left;
+  line-height: 35px;
+}
+.m-integrals-item-content a p{
+  color: #666;
+  float: left;
+  line-height: 35px;
+  width: 175px;
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.m-integrals-item-content .arrow{
+  float: left;
+  margin-top: 8px;
+}
+.m-integrals-item-content .integrals-time{
+  font-size: 14px;
+  color: #999;
+  float: right;
+}
+.m-integrals-head{
+  font-size: 18px;
+  background-color: #fff;
+  margin: 20px auto 0 auto;
+  width: 98%;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+.m-integrals-head-top{
+  overflow: hidden;
+  padding-left: 10px;
+}
+.m-integrals-head-top span{
+  display: inline-block;
+  float: left;
+  font-size: 18px;
+  line-height: 21px;
+}
+.m-integrals-head-top-rank{
+  overflow: hidden;
+}
+.m-integrals-star{
+  display: inline-block;
+  height: 21px;
+  width: 107px;
+  background: url(../ioc/User_Credit.png) 0px -88px no-repeat;
+}
+.m-integrals-star1{
+  background: url(../ioc/User_Credit.png) 0px 0px no-repeat;
+}
+.m-integrals-star2{
+  background: url(../ioc/User_Credit.png) 0px -22px no-repeat;
+}
+.m-integrals-star3{
+  background: url(../ioc/User_Credit.png) 0px -44px no-repeat;
+}
+.m-integrals-star4{
+  background: url(../ioc/User_Credit.png) 0px -66px no-repeat;
+}
+.m-integrals-star5{
+  background: url(../ioc/User_Credit.png) 0px -88px no-repeat;
+}
+.m-integrals-head-bottom{
+  overflow: hidden;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+.m-integrals-head-top-all{
+  margin-left: 20px;
+}
+.m-integrals-num{
+  color: #0d78bb;
+}
+.m-integrals-levelingUp{
+  display: inline-block;
+  width: 203px;
+}
+.m-integrals-search{
+  padding: 10px 0 10px 10px;
+  background-color: #fff;
+  margin: 20px auto 0 auto;
+}
+.m-integrals-search span{
+  line-height: 25px;
+  font-size: 16px;
+}
+.m-integrals-search input{
+  width: 127px;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 7px;
+}
+.m-integrals-search-buttom{
+  display: inline-block;
+}
+.m-integrals-search-buttom button{
+  background: #f60;
+  border: 1px solid #e4840d;
+  color: #fff;
+  line-height: 25px;
+  padding: 0 2px;
+  margin-top: 10px;
+}
