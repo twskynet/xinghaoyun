@@ -1,0 +1,55 @@
+@charset "UTF-8";
+.m-set-head{
+  margin-top: 25px;
+  padding: 10px 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+.m-set-head .m-headPortrait{
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.m-set-head-username{
+  line-height: 60px;
+  padding: 0 10px;
+  color: #555;
+}
+.m-exit{
+  background-color: red;
+  margin: 10px 5px;
+  border-radius: 4px;
+}
+.m-exit a p{
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+}
+.m-content{
+  margin-top: 25px;
+  line-height: 55px;
+  background-color: #fff;
+  font-size: 18px;
+  border-top: 1px solid #aaa;
+}
+.m-content ul li{
+  border-bottom: 1px solid #aaa;
+  padding-left: 20px;
+}
+.m-content p{
+  display: inline-block;
+  color: #777;
+}
+.m-set-password{
+  background-color: #fff;
+  margin-top: 20px;
+  line-height: 55px;
+}
+.m-set-password-left{
+  line-height: 55px;
+  font-size: 18px;
+  padding-left: 20px;
+}
+.m-set-password .arrow{
+  float: right;
+  margin-top: 17px;
+}

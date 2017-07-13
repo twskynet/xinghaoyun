@@ -1,0 +1,27 @@
+﻿@charset "utf-8";
+/* CSS Document */
+*{margin: 0;padding: 0;}
+body{font-family: "微软雅黑";}
+.w25{width: 25%;}
+.w75{width: 75%;}
+.w33{width: 33.333%;}
+html{    background: #eee}
+	/*头部*/
+	.head{height: 45px;width: 100%;background:red;margin-bottom: 45px;position: fixed;z-index: 2;top:0;}
+	.head p{color: #fff;line-height: 45px;width: 80px;text-align: center;}
+	.head  p:first-child{font-size: 16px;float: left;}
+	.head-sy{margin: 0 auto;font-size: 16px;font-weight: bold;}
+	.head  p:last-child{font-size: 16px;float: right;margin-top: -45px;}
+	/*中间内容*/
+	.body{width: 100%;padding-top: 45px;margin-bottom: 45px;background: #D5D5D5;}
+
+	/*底部导航*/
+	.footer{height: 45px;width: 100%;background:#fff;position: fixed;bottom: 0px;}
+	.footmum{height:45px;width: 25%;float: left;text-align: center;font-size: 10px}
+	.footmum p{color: black}
+	.dqhy-ioc{background:url(../ioc/index-img.png); height: 44px;width: 48px;background-position: 0 -320px;margin-top: 7px;display: block;}
+	.dqyl-ioc{background:url(../ioc/index-img.png); height: 44px;width: 48px;background-position: 0 -496px;margin-top: 7px;display: block;}
+	.dqcc-ioc{background:url(../ioc/index-img.png); height: 44px;width: 48px;background-position: 0 -452px;margin-top: 7px;display: block;}
+	.dqwl-ioc{background:url(../ioc/index-img.png); height: 44px;width: 48px;background-position: 0 -364px;margin-top: 7px;display: block;}
+	.dqqy-ioc{background:url(../ioc/index-img.png); height: 44px;width: 48px;background-position: 0 -408px;margin-top: 7px;display: block;}
+	.dqcyr-ioc{background:url(../ioc/index-img.png); height: 44px;width: 48px;background-position: 0 -280px;margin-top: 7px;display: block;}

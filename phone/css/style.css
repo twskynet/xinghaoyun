@@ -1,0 +1,368 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "å¾®è½¯é›…é»‘";
+}
+
+i {
+    font-style: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+ol, ul {
+    margin: 0;
+}
+
+input {
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+red {
+    color: red;
+}
+
+blue {
+    color: blue;
+}
+
+orange {
+    color: orange;
+}
+
+green {
+    color: green;
+}
+
+span {
+    font-size: 12px;
+}
+
+.bb3c {
+    border-bottom: 1px solid #ccc;
+}
+
+.nb {
+    border: none;
+    border-radius: 0;
+}
+
+.w10 {
+    width: 100%;
+}
+
+.w8 {
+    width: 80%;
+}
+
+.w6 {
+    width: 60%;
+}
+
+.w5 {
+    width: 50%;
+}
+
+.w4 {
+    width: 40%;
+}
+
+.w2 {
+    width: 20%;
+}
+
+.w3 {
+    width: 30%;
+}
+
+.p0 {
+    padding: 0;
+}
+
+.pr0 {
+    padding-right: 0;
+}
+
+.pl15 {
+    padding-left: 15px;
+}
+
+.ml5 {
+    margin-left: 5px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.ml15 {
+    margin-left: 15px;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
+
+.mr5 {
+    margin-right: 5px;
+}
+
+.mtb10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.big {
+    font-size: 20px;
+}
+
+.x-main {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.x-main-top {
+    margin-top: 45px;
+    height: 45px;
+    padding: 7px 0;
+    background: #efefef url('../img/bg.png') repeat-x 0 0;
+    background-size: 100% 44px;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.x-top-left {
+    height: 22px;
+    margin: 5px 0 0 10px;
+}
+
+.glyphicon-menu-left {
+    line-height: 45px;
+    font-size: 30px;
+}
+
+.x-new-search-tab li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    height: 40px;
+    line-height: 3;
+}
+
+.x-wareimg {
+    margin-top: 20px;
+}
+
+.x-wareimg img {
+    width: 100%;
+}
+
+.x-waretext {
+    margin-top: 10px;
+}
+
+.x-waretext h3 {
+    font-size: 2rem;
+}
+
+.gaiListi {
+    display: inline-block;
+    width: 20px;
+    height: 23px;
+    color: #fff;
+    line-height: 21px;
+    font-size: 12px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.gail {
+    display: inline-block;
+    text-align: center;
+    background: url("../img/Wear-3-1.png") center center no-repeat;
+    float: left;
+    width: 28px;
+    height: 31px;
+    line-height: 28px;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 5px
+}
+
+.gaiStart {
+    background: url("../img/carline.png") 0 0 no-repeat;
+    margin-right: 5px;
+}
+
+.gaiEnd {
+    background: url("../img/carline.png") 0 -24px no-repeat;
+    margin: 0 5px;
+}
+
+.gaiUser {
+    background: url("../img/user_icon.png") 0 center no-repeat;
+    margin: 0;
+    padding-left: 22px;
+}
+
+.x-Txttime {
+    padding-left: 22px;
+    background: url("../img/fabutime.png") 0 center no-repeat;
+}
+
+.gaiTxt {
+    font-size: 15px;
+    color: #444;
+}
+
+.x-time input {
+    width: 20%;
+    margin-right: 28px;
+}
+
+.x-con {
+    padding: 25px;
+}
+
+.x-new-search-tab {
+    border-bottom: 1px solid #efefef;
+}
+
+.x-custom-search-tab {
+    height: 35px;
+    border-bottom: 1px solid #efefef;
+    padding: 4px 12px;
+}
+
+.x-custom-search-tab li {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.x-custom-search-tab li span {
+    background-color: #f0f2f5;
+}
+
+.dropdown-menu {
+    width: 130px;
+    min-width: 95px;
+}
+
+.dropdown-menu li {
+    width: 100%;
+}
+
+.x-btn-default {
+    border-color: #fff;
+}
+
+.btn-group>button {
+    margin: 0 6px;
+    border-radius: 0px;
+}
+
+.btn-group>.btn:first-child {
+    background-color: #f0f2f5;
+}
+
+.x-serach-span {
+    margin-left: 10px;
+}
+
+.x-header-search {
+    border: 1px solid #d5d5d5;
+    height: 32px;
+    background: #fff;
+    border-radius: 16px;
+    padding: 4px 0 0 12px;
+}
+
+.x-serach {
+    border: none;
+    width: 90%;
+}
+
+.x-serach:focus {
+    outline: none;
+}
+
+.row {
+    margin: auto 0;
+}
+
+.x-custom-search-tab .btn {
+    padding: 2px 12px;
+}
+
+.x-custom-search-tab .btn-group {
+    width: 28%;
+}
+
+.x-list-left {
+    padding: 0 0;
+}
+
+.x-content {
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.arrow-up {
+    position: absolute;
+    top: 20px;
+    right: 12px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    /* 左边框的宽 */
+    border-right: 5px solid transparent;
+    /* 右边框的宽 */
+    border-bottom: 5px solid #2f2f2f;
+    /* 下边框的长度|高,以及背景色 */
+    font-size: 0;
+    line-height: 0;
+}
+
+.arrow-down {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 12px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #2f2f2f;
+    font-size: 0;
+    line-height: 0;
+}
+
+.x-shipdetailed img {
+    width: 100%;
+    height: 300px;
+}
+
+.x-tran .modal-content {
+    padding: 5px 10px;
+}
+
+.x-tran .modal-content h3 {
+    margin: 0;
+}
+
+.supplydetails .x-top img {
+    height: 240px;
+}

@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "微软雅黑";
+}
+
+a {
+    color: #000;
+}
+
+a:focus, a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+i {
+    font-style: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+ol, ul {
+    margin: 0;
+}
+
+input {
+    font-size: 12px;
+}
+
+.w10 {
+    width: 100%;
+}
+
+.w8 {
+    width: 80%;
+}
+
+.w6 {
+    width: 60%;
+}
+
+.w5 {
+    width: 50%;
+}
+
+.w4 {
+    width: 40%;
+}
+
+.w2 {
+    width: 20%;
+}
+
+.p0 {
+    padding: 0;
+}
+
+.pr0 {
+    padding-right: 0;
+}
+
+.pl15 {
+    padding-left: 15px;
+}
+
+.ml5 {
+    margin-left: 5px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.ml15 {
+    margin-left: 15px;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
+
+.mr5 {
+    margin-right: 5px;
+}
+
+.mtb10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nb{
+  border: 0;
+}
+.gaiListi {
+    display: inline-block;
+    width: 20px;
+    height: 23px;
+    color: #fff;
+    line-height: 21px;
+    font-size: 12px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.fs1r {
+    font-size: 1rem;
+}
+
+.gail {
+    display: inline-block;
+    text-align: center;
+    ee background: url("../img/Wear-3-1.png") center center no-repeat;
+    float: left;
+    width: 28px;
+    height: 31px;
+    line-height: 28px;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 5px
+}
+
+.gaiStart {
+    background: url("../img/carline.png") 0 0 no-repeat;
+    margin-right: 5px;
+}
+
+.gaiEnd {
+    background: url("../img/carline.png") 0 -24px no-repeat;
+    margin: 0 5px;
+}
+
+.gaiUser {
+    background: url("../img/user_icon.png") 0 center no-repeat;
+    margin: 0;
+    padding-left: 22px;
+}
+
+.x-main {
+    padding: 5px;
+    padding-top: 48px;
+    background: #e2e2e2;
+}
+
+.x-top {
+    box-shadow: 0px 1px 2px #3c3c3c;
+}
+
+.x-top li {
+    text-align: center;
+    float: left;
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+}
+
+.x-top li.x-active {
+    background: #ececec;
+}
+
+.x-content {
+    margin-top: 4px;
+    padding: 1px 10px;
+    padding-left: 2px;
+    background: #fff;
+}
+
+.x-content span {
+    font-size: 12px;
+}
+
+.vol {
+    height: 21px;
+    max-width: 40px;
+    border-left: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.x-content .row {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.start, .end {
+    width: 67%;
+}
+
+.wei {
+    width: 33%;
+}
+
+input[type=radio] {
+    vertical-align: text-bottom;
+    margin-bottom: 2px;
+}
+
+red {
+    color: red;
+}
+
+.remark input {
+    width: 87%;
+}
+
+.already {
+    display: none;
+}
+
+.x-content .already .row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.already .row span, .already .row strong {
+    margin-left: 5px;
+}
+
+.already .already-list .btn-list button {
+    width: 20%;
+}
+.x-header-search {
+    border: 1px solid #d5d5d5;
+    height: 32px;
+    background: #fff;
+    border-radius: 16px;
+    padding: 4px 0 0 12px;
+}
+.x-serach {
+    border: none;
+    width: 90%;
+}
+.x-serach:focus {
+    outline: none;
+}

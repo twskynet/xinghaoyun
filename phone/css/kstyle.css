@@ -1,0 +1,18 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.col-xs-12{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.item img{
+  width: 100%;
+}
+.ksy{
+  text-align: center;
+  margin-top: 20px;
+}
+.kdb{
+  padding-bottom: 40px;
+}

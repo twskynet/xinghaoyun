@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/dropdown.js/0.0.2dev/jquery.dropdown.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/LArea.css">
+    <script src="js/lCalendar.js"></script>
+    <link rel="stylesheet" href="css/lCalendar.css">
+    <link rel="stylesheet" href="css/phone-index.css">
+
+</head>
+
+<body>
+  <div class="head"><p></p><p class="head-sy">首页 </p><p>登录/注册</p></div>
+    <div class="x-main-top">
+        <div class="row">
+            <div class="pull-left">
+                <img src="img/left.png" alt="" class="x-top-left">
+            </div>
+            <div class="col-xs-10">
+                <form class="" action="index.html" method="post">
+                    <div class="x-header-search">
+                        <img src="img/ic_serach_pub.png" alt="" class="serach-span">
+                        <input type="text" name="" value="" class="x-serach">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="x-new-search-tab clearfix">
+        <ul class="tag-list">
+            <li>最新<span class="arrow-down"></span><span class="arrow-up"></span></li>
+            <li>价格<span class="arrow-down"></span><span class="arrow-up"></span></li>
+            <li>面积<span class="arrow-down"></span><span class="arrow-up"></span></li>
+            <li class="screen-btn">筛选<img src="img/筛选.png" alt=""></li>
+        </ul>
+    </div>
+    <div class="x-custom-search-tab">
+        <div class="btn-group pull-left text-center w33">
+            <div class="re">
+                <button type="button" class="btn btn-default dropdown-toggle nb" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                仓储类型 <span class="caret"></span>
+              </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">普通库</a></li>
+                    <li><a href="#">标准库</a></li>
+                    <li><a href="#">综合库</a></li>
+                    <li><a href="#">保税库</a></li>
+                    <li><a href="#">冷藏库</a></li>
+                    <li><a href="#">恒温库</a></li>
+                    <li><a href="#">危险品</a></li>
+                    <li><a href="#">立体</a></li>
+                    <li><a href="#">露天</a></li>
+                    <li><a href="#">货架</a></li>
+                    <li><a href="#">液体</a></li>
+                    <li><a href="#">堆场</a></li>
+                    <li><a href="#">其他</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="btn-group pull-left text-center w33">
+            <div class="re">
+                <button type="button" class="btn btn-default dropdown-toggle nb" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              建筑标准 <span class="caret"></span>
+            </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">平台</a></li>
+                    <li><a href="#">高台</a></li>
+                    <li><a href="#">平仓</a></li>
+                    <li><a href="#">楼仓</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="btn-group pull-left text-center w33">
+            <div class="re">
+                <button type="button" class="btn btn-default dropdown-toggle nb" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  出租方式 <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">整租</a></li>
+                    <li><a href="#">分租</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="x-main">
+        <div class="x-first">
+            <div class="x-content row mtb10">
+                <div class="col-xs-6 x-list-left">
+                    <div class="x-wareimg">
+                        <a href="/">
+                            <img src="img/cangku.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <div class="x-waretext">
+                        <h3><a href="storagedetails.html">2号仓库</a></h3>
+                        <p>仓储类型:<span>普通库</span></p>
+                        <p>出租方式:<span>分租</span></p>
+                    </div>
+                </div>
+                <div class="col-xs-12 more">
+                    <p>
+                        <div class="w60p pull-left">周维</div>:<span class="ml15">0773360582</span></p>
+                    <p>
+                        <div class="w60p pull-left">总面积</div>:<span class="ml15">10752m<sup>2</sip></span></p>
+                    <p>
+                        <div class="w60p pull-left">详细地址</div>:<span class="ml15">广西 贵港 贵港市南平路78号</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="screen" style="display:none;">
+            <form class="form-inline">
+                <div class="form-group">
+                    <label for="exampleInputName2">所在地</label>
+                    <input type="text" class="form-control" id="location">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputName2">名称:</label>
+                    <input type="text" class="form-control" id="x-end">
+                </div>
+                <div class="form-group">
+                    <div class="">
+                        <label for="exampleInputName2">总面积(m<sup>2</sup>)</label>
+                    </div>
+                    <div class="clearfix">
+                        <input type="text" class="form-control w5 pull-left clearfix mr10" id="time-start">
+                        <input type="text" class="form-control w4 pull-right clearfix" id="time-end">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="">
+                        <label for="exampleInputName2">租金(元)</label>
+                    </div>
+                    <div class="clearfix">
+                        <input type="text" class="form-control w5 pull-left clearfix mr10" id="time-start">
+                        <input type="text" class="form-control w4 pull-right clearfix" id="time-end">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="sysm.html">
+            <div class="footmum">
+                <p><img src="ioc/indx.png" style="height: 25px;" /><br><span>首页</span></span>
+                </p>
+            </div>
+        </a>
+        <a href="order-list.html">
+            <div class="footmum">
+                <p><img src="ioc/dd-1.png" style="height: 25px;" /><br>订单跟踪</p>
+            </div>
+        </a>
+        <a href="statistics.html">
+            <div class="footmum">
+                <p><img src="ioc/sjtj-1.png" style="height: 25px;" /><br>数据统计</p>
+            </div>
+        </a>
+        <a href="Personal.html">
+            <div class="footmum">
+                <p><img src="ioc/my-1.png" style="height:25px;" /><br>我的</p>
+            </div>
+        </a>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.bootcss.com/dropdown.js/0.0.2dev/jquery.dropdown.min.js"></script>
+    <script src="js/example.js"></script>
+    <script src="js/LAreaData1.js"></script>
+    <script src="js/LAreaData2.js"></script>
+    <script src="js/LArea.js"></script>
+    <script type="text/javascript">
+        var area1 = new LArea();
+        area1.init({
+            'trigger': '#location', //触发选择控件的文本框，同时选择完毕后name属性输出到该位置
+            'valueTo': '#location', //选择完毕后id属性输出到该位置
+            'keys': {
+                id: 'id',
+                name: 'name'
+            }, //绑定数据源相关字段 id对应valueTo的value属性输出 name对应trigger的value属性输出
+            'type': 1, //数据源类型
+            'data': LAreaData //数据源
+        });
+        area1.value = [1, 15, 3]; //控制初始位置，注意：该方法并不会影响到input的value
+    </script>
+    <script>
+        var calendardatetime = new lCalendar();
+        calendardatetime.init({
+            'trigger': '#time-start',
+            'type': 'datetime'
+        });
+        var calendardatetime = new lCalendar();
+        calendardatetime.init({
+            'trigger': '#time-end',
+            'type': 'datetime'
+        });
+    </script>
+</body>
+
+</html>

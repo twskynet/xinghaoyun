@@ -1,0 +1,43 @@
+@charset "UTF-8";
+*{
+  padding: 0;
+  margin: 0;
+  color: #333;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.a-block{
+  display: block;
+  overflow: hidden;
+  color: #fff;
+}
+.arrow{
+  display: block;
+  width: 14px;
+  height: 20px;
+  background: url(../ioc/mjd.png) no-repeat;
+  background-position: 0px -20px;
+  background-size: 200px 200px;
+}
+.m-headPortrait{
+  float: left;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #bc5252;
+  overflow: hidden;
+}
+.m-headPortrait img{
+  width: 60px;
+  height: 60px;
+}
+.clear{
+  clear: both;
+}

@@ -1,0 +1,165 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+}
+.clear{
+  clear: both;
+}
+.right{
+  float: right;
+}
+.m-order-item{
+  overflow: hidden;
+  position: relative;
+  margin-top: 15px;
+}
+.m-order-item a{
+  display: inline-block;
+  overflow: hidden;
+  color: #222;
+  width: 180px;
+}
+.m-order-item .m-order-item-top{
+  overflow: hidden;
+  background-color: #fff;
+}
+.m-order-item .m-order-item-top .m-dingdan{
+  float: left;
+  width: 60px;
+  text-align: right;
+  line-height: 40px;
+}
+.m-order-item .m-order-item-top .m-dingdan::after{
+  content: ":";
+}
+.m-order-item .m-order-item-top p{
+  float: left;
+  width: 100px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 40px;
+}
+.m-order-item .m-order-item-top .arrow{
+  position: absolute;
+  top: 10px;
+  left: 155px;
+  width: 14px;
+  height: 20px;
+  background: url(../img/mjd.png) no-repeat;
+  background-position: 0px -20px;
+  background-size: 200px 200px;
+}
+.m-order-item .m-order-item-top .order-control{
+  color: red;
+  float: right;
+  line-height: 40px;
+  font-size: 14px;
+  padding-right: 5px;
+}
+.m-order-item .m-order-item-content{
+  background-color: #eee;
+  overflow: hidden;
+}
+.m-order-item .m-order-item-content .m-headPortrait{
+  float: left;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #bc5252;
+  overflow: hidden;
+  margin-top: 9px;
+  margin-left: 10px;
+}
+.m-order-item .m-order-item-content .m-headPortrait img{
+  width: 60px;
+  height: 60px;
+}
+.m-order-item-address{
+  font-size: 14px;
+  overflow: hidden;
+  color: #222;
+  line-height: 24px;
+  padding: 0 10px;
+}
+.m-order-item-address div span{
+  display: inline-block;
+}
+.m-order-item-address div p{
+  display: inline-block;
+}
+.m-order-item-origin{
+  float: left;
+}
+.m-order-item-origin span{
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  width: 20px;
+  height: 24px;
+  background: url(../ioc/didian.png) 0 0 no-repeat;
+}
+.m-order-item-destination{
+  float: left;
+}
+.m-order-item-destination span{
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  width: 20px;
+  height: 24px;
+  background: url(../ioc/didian.png) 0px -24px no-repeat;
+}
+.m-price{
+  padding-left: 85px;
+  background-color: skyblue;
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  line-height: 30px;
+}
+.m-price p{
+  /*float: left;*/
+  font-weight: 600;
+  display: inline;
+  color: red;
+}
+.m-price .m-goodsType{
+  float: left;
+  padding-right: 20px;
+}
+.m-price .m-total{
+  float: left;
+}
+.m-price .m-total p::before{
+  content: ""
+}
+.m-order-control{
+  height: 35px;
+  float: right;
+  background-color: #fff;
+  width: 100%;
+}
+.m-order-control ul{
+  margin-top: 5px;
+}
+.m-order-control ul li{
+  float: left;
+  display: block;
+  height: 28px;
+  border-radius: 4px;
+  line-height: 28px;
+  font-size: 14px;
+  background: #3cb0d0;
+  color: #fff;
+  padding: 0 3px;
+  margin-right: 5px;
+}
+.m-order-control .m-button-yellow{
+  background: #efc904;
+}

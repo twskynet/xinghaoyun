@@ -1,0 +1,29 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.k-dh p{
+  float:left;
+  width: 33.33%;
+  text-align: center;
+  line-height: 43px;
+  height: 43px;
+  background: #fff;
+}
+.k-news{
+  margin-top: 40px;
+}
+.non{
+  background-color: white;
+  text-align: center;
+}
+#k-activ{
+  background: #eee;
+}
+h4{
+  display: inline-block;
+}
+.k-news span{
+  float: right;
+  color: #adaaaa;
+}
