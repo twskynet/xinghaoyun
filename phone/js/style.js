@@ -13,7 +13,7 @@ var data = [
     render : 'canvasDiv',//渲染的Dom目标,canvasDiv为Dom的ID
     data: data,//绑定数据
     title : '吨位表',//设置标题
-    width : 330,//设置宽度，默认单位为px
+    width : 340,//设置宽度，默认单位为px
     height : 280,//设置高度，默认单位为px
     shadow:true,//激活阴影
     shadow_color:'#c7c7c7',//设置阴影颜色
@@ -51,7 +51,7 @@ var data2 = [
     render : 'canvasDiv2',//渲染的Dom目标,canvasDiv为Dom的ID
     data: data2,//绑定数据
     title : 'm³表',//设置标题
-    width : 380,//设置宽度，默认单位为px
+    width : 340,//设置宽度，默认单位为px
     height : 280,//设置高度，默认单位为px
     shadow:true,//激活阴影
     shadow_color:'#c7c7c7',//设置阴影颜色
@@ -88,7 +88,7 @@ var data3 = [
     render : 'canvasDiv3',//渲染的Dom目标,canvasDiv为Dom的ID
     data: data3,//绑定数据
     title : '吨位表',//设置标题
-    width : 380,//设置宽度，默认单位为px
+    width : 340,//设置宽度，默认单位为px
     height : 280,//设置高度，默认单位为px
     shadow:true,//激活阴影
     shadow_color:'#c7c7c7',//设置阴影颜色
@@ -122,7 +122,7 @@ var data4 = [
     render : 'canvasDiv4',//渲染的Dom目标,canvasDiv为Dom的ID
     data: data4,//绑定数据
     title : 'm³表',//设置标题
-    width : 380,//设置宽度，默认单位为px
+    width : 340,//设置宽度，默认单位为px
     height : 280,//设置高度，默认单位为px
     shadow:true,//激活阴影
     shadow_color:'#c7c7c7',//设置阴影颜色
@@ -156,7 +156,7 @@ var data5 = [
     render : 'canvasDiv5',//渲染的Dom目标,canvasDiv为Dom的ID
     data: data5,//绑定数据
     title : '吨位表',//设置标题
-    width : 380,//设置宽度，默认单位为px
+    width : 340,//设置宽度，默认单位为px
     height : 280,//设置高度，默认单位为px
     shadow:true,//激活阴影
     shadow_color:'#c7c7c7',//设置阴影颜色
@@ -190,7 +190,7 @@ var data6 = [
     render : 'canvasDiv6',//渲染的Dom目标,canvasDiv为Dom的ID
     data: data6,//绑定数据
     title : 'm³表',//设置标题
-    width : 380,//设置宽度，默认单位为px
+    width : 340,//设置宽度，默认单位为px
     height : 280,//设置高度，默认单位为px
     shadow:true,//激活阴影
     shadow_color:'#c7c7c7',//设置阴影颜色
@@ -226,7 +226,7 @@ var data7 = [
     render : 'canvasDiv7',//渲染的Dom目标,canvasDiv为Dom的ID
     data: data7,//绑定数据
     title : '吨位表',//设置标题
-    width : 380,//设置宽度，默认单位为px
+    width : 340,//设置宽度，默认单位为px
     height : 280,//设置高度，默认单位为px
     shadow:true,//激活阴影
     shadow_color:'#c7c7c7',//设置阴影颜色
@@ -262,7 +262,7 @@ var data8 = [
     render : 'canvasDiv8',//渲染的Dom目标,canvasDiv为Dom的ID
     data: data8,//绑定数据
     title : 'm³表',//设置标题
-    width : 380,//设置宽度，默认单位为px
+    width : 340,//设置宽度，默认单位为px
     height : 280,//设置高度，默认单位为px
     shadow:true,//激活阴影
     shadow_color:'#c7c7c7',//设置阴影颜色
